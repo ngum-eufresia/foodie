@@ -1,0 +1,259 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+html, body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+#output {
+  padding: 20px;
+  text-align: center;
+}
+
+.nav-item nav-link{
+  font-size: 1px;
+  font-weight: 100px;
+}
+.main-row{
+  height:100%;
+}
+.column-1,
+.column-2{
+  height: 100%;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  background-color: #EEEEEE;
+  width:100%;
+}
+
+.nav-border{
+   padding-top: 0px;
+   margin-top: 0px;
+   width: 46rem;
+   margin-left: 70px;
+}
+.navbar{
+  box-shadow:none !important;
+  font-size: 13px !important;
+  color:#180101 !important;
+}
+a.nav-link{
+   color:#180101 !important;
+   text-decoration: bold;
+}
+
+.navbar-nav a:hover {
+  border-bottom: 3px solid #15D200;
+  color:#15D200 !important;
+}
+
+.navbar-nav a.active {
+  border-bottom: 3px solid #15D200;
+  color:#15D200; 
+
+}
+
+.rounded-1{
+ background: #FFFFFFC9 0% 0% no-repeat padding-box;
+ border: 1px solid #70707091;
+ margin-left: 95px;
+
+ 
+}
+.search-tool {
+    margin-left: 667px;
+    position: absolute;
+    top: 65px;
+    left: 13px;
+    transform: translateX(32%);
+
+}
+.options{
+  text-decoration: none;
+  font-size: 14px;
+  font-weight:500 ;
+  margin-left:27px ;
+} 
+
+.line{
+  width: 88%;
+  padding-left: 4px;
+  margin-right: auto;
+  height: 1px;
+  background: #180101;
+}
+.take-out-but{
+  border-radius: 5px;
+  background-color:white;
+  color:black;
+  border-color:rgb(134, 132, 132);
+  font-size: small;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border: 1px solid var(--unnamed-color-707070);
+  
+
+}
+ .take-out-but:hover{
+ background-color: rgba(255, 255, 255, 0.582);
+
+}
+ .dine-in-but{
+  border-radius: 5px;
+  background-color: black;
+  color:aliceblue;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 12px;
+  padding-right: 12px;
+  font-size: small;
+  border: 1px solid var(--unnamed-color-707070);
+
+ }
+ .dine-in-but:hover{
+  background-color:rgba(54, 51, 51, 0.801)
+
+ }
+.card-img-top{
+  
+  
+
+}
+
+.food-card{
+  margin-left: 65px;
+  background-color: #ECECEC;
+}
+.middle-card{
+  margin-left:20px;
+  background-color: #ECECEC;
+}
+.end-card{
+  margin-right: 55px;
+  background-color: #ECECEC;
+
+}
+.images{
+  position: relative;
+  top: 150px;
+  bottom: 0;
+  z-index: 99999;
+  /* border: 3px solid #73AD21; */
+}
+.card-text {
+  padding-top: 3.5rem;
+
+
+}
+.empty{
+top: 89px;
+left: 1301px;
+width: 65px;
+height: 39px;
+border: 1px solid var(--unnamed-color-707070);
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #707070;
+border-radius: 10px;
+opacity: 1;
+}
+header{
+  /* width:29rem;
+  height: 50px; */
+  /* padding: 0%;
+  margin: 0 auto; */
+  width: 440px;
+  position:fixed;
+  scroll-margin-top: 10rem;
+  z-index:99999;
+  background-color: #BFBFBF
+
+}
+.food-image{
+    position: absolute;
+    top: -61px;
+    left: -9px;
+    transform: translateX(32%);
+
+}
+.three-image {
+font-size:30px ; 
+width: 50px;
+height: 50px;
+border: 1px solid var(--unnamed-color-707070);
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #707070;
+border-radius: 10px;
+opacity: 1;
+
+}
+.amount{
+  padding-right: 35px;
+  padding-left: 30px;
+}
+.btn{
+  padding-left: 40px;
+  padding-right: 10px;
+}
+
+.btn:hover{
+  background-color: #e40d0d;
+}
+
+
+
+
+.second-hr{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 2px;
+  background: #180101;
+}
+.delete{
+width: 60px;
+height: 50px;
+border: 1px solid #FF6060;
+border-radius: 10px;
+opacity: 1;
+justify-items: center;
+}
+.delete:hover{
+/* background-color:#b8b2b2; */
+border: 1px solid #d44b4b;
+
+}
+.comment{
+border: 5px solid;
+/* text-align: center;
+justify-content: center; */
+
+height: 50px;
+border: 1px solid var(--unnamed-color-707070);
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #707070;
+border-radius: 10px;
+opacity: 1;
+}
+#payment{
+  background-color: #FF6060 ;
+}
+#payment:hover{
+  background-color: #e75454;
+}
+#amount{
+  padding-left: 36px;
+}
+.footer{
+ 
+  background-color:  #EEEEEE;
+  position: fixed;
+  bottom: -2px;
+  width: 440px;
+  padding-bottom: 10px;
+  z-index: 10;
+}
+   
