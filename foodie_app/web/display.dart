@@ -121,6 +121,7 @@ displayCol() {
   DivElement card = DivElement();
   DivElement cardBody = DivElement();
   DivElement food = DivElement();
+  ImageElement image = ImageElement();
 
   Element p = Element.p();
   Element p1 = Element.p();
@@ -135,7 +136,9 @@ displayCol() {
   cardBody.children.add(p2);
   cardBody.className = "card-body pb-0";
 
-  food.text = "image here";
+  image.src = "images/handburger1.png";
+  food.children.add(image);
+  food.className = "food-image";
   card.children.add(food);
   card.children.add(cardBody);
   card.className = "food-card card mt-3";
@@ -144,60 +147,203 @@ displayCol() {
   return col;
 }
 
-// displayMidCol() {
-//   DivElement div = DivElement();
-//   DivElement col = DivElement();
-//   DivElement card = DivElement();
-//   DivElement cardBody = DivElement();
-//   DivElement food = DivElement();
+displayColMid() {
+  DivElement div = DivElement();
+  DivElement col = DivElement();
+  DivElement card = DivElement();
+  DivElement cardBody = DivElement();
+  DivElement food = DivElement();
+  ImageElement image = ImageElement();
 
-//   Element p = Element.p();
-//   Element p1 = Element.p();
-//   Element p2 = Element.p();
-//   p.text = "handbuger very testy and great";
-//   p.className = "card-text";
-//   p1.text = "1700 FCFA";
-//   p2.text = " 11 plates available";
+  Element p = Element.p();
+  Element p1 = Element.p();
+  Element p2 = Element.p();
+  p.text = "handbuger very testy and great";
+  p.className = "card-text";
+  p1.text = "1700 FCFA";
+  p2.text = " 11 plates available";
 
-//   cardBody.children.add(p);
-//   cardBody.children.add(p1);
-//   cardBody.children.add(p2);
-//   cardBody.className = "card-body pb-0";
+  cardBody.children.add(p);
+  cardBody.children.add(p1);
+  cardBody.children.add(p2);
+  cardBody.className = "card-body pb-0";
+  image.src = "images/handburger1.png";
+  food.children.add(image);
+  food.className = "food-image";
+  card.children.add(food);
+  card.children.add(cardBody);
+  card.className = "food-card card mt-3";
+  col.children.add(card);
+  col.className = "col-sm-4";
+  return col;
+}
 
-//   card.children.add(cardBody);
-//   card.className = "food-card card mt-3";
-//   col.children.add(col);
-//   col.className = "col-sm-4";
-//   return col;
-// }
+displayColEnd() {
+  DivElement div = DivElement();
+  DivElement col = DivElement();
+  DivElement card = DivElement();
+  DivElement cardBody = DivElement();
+  DivElement food = DivElement();
+  ImageElement image = ImageElement();
 
-// displayEndCol() {
-//   DivElement div = DivElement();
-//   DivElement col = DivElement();
-//   DivElement card = DivElement();
-//   DivElement cardBody = DivElement();
-//   DivElement food = DivElement();
+  Element p = Element.p();
+  Element p1 = Element.p();
+  Element p2 = Element.p();
+  p.text = "handbuger very testy and great";
+  p.className = "card-text";
+  p1.text = "1700 FCFA";
+  p2.text = " 11 plates available";
 
-//   Element p = Element.p();
-//   Element p1 = Element.p();
-//   Element p2 = Element.p();
-//   p.text = "handbuger very testy and great";
-//   p.className = "card-text";
-//   p1.text = "1700 FCFA";
-//   p2.text = " 11 plates available";
+  cardBody.children.add(p);
+  cardBody.children.add(p1);
+  cardBody.children.add(p2);
+  cardBody.className = "card-body pb-0";
 
-//   cardBody.children.add(p);
-//   cardBody.children.add(p1);
-//   cardBody.children.add(p2);
-//   cardBody.className = "card-body pb-0";
+  image.src = "images/handburger1.png";
+  food.children.add(image);
+  food.className = "food-image";
+  card.children.add(food);
+  card.children.add(cardBody);
+  card.className = "food-card card mt-3";
+  col.children.add(card);
+  col.className = "col-sm-4";
+  return col;
+}
 
-//   card.children.add(cardBody);
-//   card.className = "end-card card ms-1 mt-3";
-//   col.children.add(col);
-//   col.className = "col-sm-4";
+displayHeader() {
+  DivElement header = DivElement();
+  DivElement div = DivElement();
+  HeadingElement h4 = HeadingElement.h4();
+  DivElement div1 = DivElement();
+  DivElement div2 = DivElement();
+  DivElement div3 = DivElement();
+  DivElement div4 = DivElement();
+  DivElement div5 = DivElement();
+  DivElement div6 = DivElement();
+  DivElement div7 = DivElement();
+  DivElement div8 = DivElement();
+  DivElement div9 = DivElement();
+  DivElement div10 = DivElement();
+  DivElement div11 = DivElement();
 
-//   return col;
-// }
+  h4.className = "ps-4 pt-4 pb-0";
+  h4.text = "ORDER#3689";
+
+  div2.className = "empty";
+  div3.children.add(div2);
+  div3.className = "ps-3  pb-1 bd-highlight";
+
+  div4.className = "empty";
+  div5.children.add(div4);
+  div5.className = "ps-3  pb-1 bd-highlight";
+
+  div6.className = "empty";
+  div7.children.add(div6);
+  div7.className = "ps-3  pb-1 bd-highlight";
+
+  div1.children.add(div3);
+  div1.children.add(div5);
+  div1.children.add(div7);
+  div1.className = "d-flex bd-highlight ps-3 mb-3";
+
+  // div2.children.add(div3);
+  // div2.className = "ps-3  pb-1 bd-highlight";
+
+  // div4.children.add(div5);
+  // div4.className = "ps-3 pb-1  bd-highlight";
+
+  // div6.children.add(div7);
+  // div6.className = "ps-3 pb-1 bd-highlight";
+  HeadingElement h6 = HeadingElement.h6();
+  h6.text = "QTY";
+  HeadingElement h7 = HeadingElement.h6();
+  div8.text = "ITEM";
+  div8.className = "flex-grow-1 bd-highlight ps-4";
+  h7.text = "PRICE";
+  div9.children.add(h6);
+  div9.className = "p-2 bd-highlight";
+  div10.children.add(h7);
+  div10.className = "p-2 ps-4 bd-highlight";
+
+  div11.children.add(div8);
+  div11.children.add(div9);
+  div11.children.add(div10);
+  div11.className = "d-flex bd-highlight pe-4";
+
+  header.children.add(h4);
+  header.children.add(div1);
+  header.children.add(div11);
+  header.className = "header";
+
+  return header;
+}
+
+displaySection() {
+  DivElement div = DivElement();
+  DivElement div1 = DivElement();
+  DivElement div2 = DivElement();
+  DivElement div3 = DivElement();
+  DivElement div4 = DivElement();
+  DivElement div5 = DivElement();
+  DivElement div6 = DivElement();
+  Element p = Element.p();
+  ImageElement image = ImageElement();
+  ImageElement delete = ImageElement();
+  HeadingElement h6 = HeadingElement.h6();
+
+  image.src = "images/smalhandurger.png";
+  image.width = 60;
+  div1.children.add(image);
+  div1.className = "p-2 pe-1 ps-5 bd-highlight";
+
+  h6.text = "Item name";
+  p.text = "1500 FCFA";
+  div2.children.add(h6);
+  div2.children.add(p);
+  div2.className = "p-2 bd-highlight";
+  div3.className = "me-auto p-2 bd-highlight";
+  div4.text = "3";
+  div4.className =
+      "ps-3 pt-0 three-image bd-highlight mt-2 justify-content-center";
+  div5.text = "4500";
+  div5.className = " amount pt-3 bd-highlight";
+
+  div6.children.add(div2);
+  div6.children.add(div3);
+  div6.children.add(div4);
+  div6.children.add(div5);
+  div6.className = "d-flex bd-highlight mb-1";
+
+  DivElement div7 = DivElement();
+  DivElement div8 = DivElement();
+  DivElement div9 = DivElement();
+  DivElement div10 = DivElement();
+  DivElement div11 = DivElement();
+
+  div7.text = "chesk this out for a bit";
+  div7.className = " comment p-2 w-75 bd-highlight";
+  div8.className = "p-2 bd-highlight";
+
+  image.src = "images/delete.png";
+
+  div9.children.add(delete);
+  div9.className = "delete ps-3";
+  div10.children.add(div9);
+  div10.className = "ps-1 bd-highlight";
+
+  div11.children.add(div7);
+  div11.children.add(div8);
+  div11.children.add(div10);
+  div10.className = "ps-3 pt-0 d-flex bd-highlight";
+
+  div.children.add(div6);
+  div.children.add(div10);
+  div.className = "pt-2";
+
+  return div;
+}
+
+
 
 // displayRow1() {
 //   DivElement div = new DivElement();
