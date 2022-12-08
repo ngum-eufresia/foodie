@@ -29,7 +29,6 @@ html, body {
 }
 .column-1,
 .column-2{
-  height: 100%;
   /* overflow-y: scroll;
   scroll-behavior: smooth; */
   width:100%;
@@ -135,6 +134,7 @@ a.nav-link{
   /* margin-left: 65px; */
   background: #ECECEC 0% 0% no-repeat padding-box;
   width:219px;
+  margin-bottom: 65px;
 }
 .middle-card{
   margin-left:20px;
@@ -162,6 +162,7 @@ a.nav-link{
 .my_row{
   padding-left: 65px;
   padding-right: 45px;
+
 }
 .empty{
 top: 89px;
@@ -180,8 +181,8 @@ opacity: 1;
   /* padding: 0%;
   margin: 0 auto; */
   width: 440px;
-  /* position:fixed; */
-  z-index:99999;
+  position:fixed;
+  z-index:9;
   background-color: #BFBFBF
 
 }
@@ -197,6 +198,7 @@ sub-section{
     top: -61px;
     left: -12px;
     transform: translateX(32%);
+    
 
 }
 .three-image {
@@ -266,6 +268,7 @@ opacity: 1;
 }
 #amount{
   padding-left: 36px;
+  font-weight: bold;
 }
 .footer{
  

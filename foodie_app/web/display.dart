@@ -202,6 +202,7 @@ displayColEnd() {
   image.src = "images/handburger1.png";
   food.children.add(image);
   food.className = "food-image";
+
   card.children.add(food);
   card.children.add(cardBody);
   card.className = "food-card card mt-3";
@@ -317,29 +318,87 @@ displaySection() {
   DivElement div7 = DivElement();
   DivElement div8 = DivElement();
   DivElement div9 = DivElement();
-  DivElement div10 = DivElement();
-  DivElement div11 = DivElement();
+  DivElement newDiv1 = DivElement();
+  DivElement newDiv2 = DivElement();
 
-  div7.text = "chesk this out for a bit";
-  div7.className = " comment p-2 w-75 bd-highlight";
+  div7.text = "check this out for a bit";
+  div7.className = "comment p-2 w-75 bd-highlight";
   div8.className = "p-2 bd-highlight";
 
-  image.src = "images/delete.png";
-
+  delete.src = "images/delete.png";
   div9.children.add(delete);
   div9.className = "delete ps-3";
-  div10.children.add(div9);
-  div10.className = "ps-1 bd-highlight";
+  newDiv1.children.add(div9);
+  newDiv1.className = "ps-1 bd-highlight";
 
-  div11.children.add(div7);
-  div11.children.add(div8);
-  div11.children.add(div10);
-  div10.className = "ps-3 pt-0 d-flex bd-highlight";
+  newDiv2.children.add(div7);
+  newDiv2.children.add(div8);
+  newDiv2.children.add(newDiv1);
+  newDiv2.className = "ps-3 pt-0 d-flex bd-highlight";
 
   div.children.add(div6);
-  div.children.add(div10);
-  div.className = "pt-2";
+  div.children.add(newDiv2);
+  div.className = "sub-section pt-2";
 
+  return div;
+}
+
+displayLine() {
+  DivElement div = DivElement();
+  Element hr = Element.hr();
+
+  hr.className = "second-hr";
+  div.children.add(hr);
+  div.className = "break";
+  return div;
+}
+
+displayCompSection() {
+  DivElement div = DivElement();
+  div.children.add(displaySection());
+  div.children.add(displayCompSection());
+  return div;
+}
+
+DisplaybuttomDiv() {
+  DivElement div = DivElement();
+  DivElement div1 = DivElement();
+  DivElement div2 = DivElement();
+  DivElement div3 = DivElement();
+  DivElement div4 = DivElement();
+  DivElement div5 = DivElement();
+  DivElement div6 = DivElement();
+  DivElement div7 = DivElement();
+  ButtonElement button = ButtonElement();
+
+  div3.text = "discount";
+  div3.className = "col-md-4 ps-3 pb-2";
+  div4.text = "0 FCFA";
+  div4.className = "col-md-4 offset-md-4";
+  div4.id = "amount";
+  div2.children.add(div3);
+  div2.children.add(div4);
+  div2.className = "row";
+
+  div5.text = "subtotal";
+  div5.className = "col-md-4 ps-3 pb-2";
+  div6.text = "39000 FCFA";
+  div6.className = "col-md-4 offset-md-4";
+  div6.id = "amount";
+  div1.children.add(div5);
+  div1.children.add(div6);
+  div1.className = "row";
+
+  button.text = "continue payment";
+  button.className = " btn ";
+  button.id = "payment";
+  div7.children.add(button);
+  div7.className = " pt-2 d-grid gap-5 col-11 mx-auto";
+
+  div.children.add(div2);
+  div.children.add(div1);
+  div.children.add(div7);
+  div.className = "footer pb-2 pt-3 border-2 border border-grey pb-4";
   return div;
 }
 
