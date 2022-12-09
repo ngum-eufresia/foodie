@@ -58,21 +58,9 @@ displayColumn1() {
   column1.className = "column-1 col-8 mb-2";
 
   column2.children.add(displayHeader());
-  column2.children.add(displaySection());
-  column2.children.add(displayLine());
 
-  column2_1.children.add(displaySection());
-  column2_1.children.add(displayLine());
+  column2.children.add(displayBody());
 
-  column2_1.children.add(displaySection());
-  column2_1.children.add(displayLine());
-
-  column2_1.children.add(displaySection());
-  column2_1.children.add(displayLine());
-  
-  column2_1.children.add(displaySection());
-  column2_1.children.add(displayLine());
-
-  column2.children.add(DisplaybuttomDiv());
+  column2.children.add(displaybuttomDiv());
   column2.className = "column-2 col-4 m-0 p-0";
 }

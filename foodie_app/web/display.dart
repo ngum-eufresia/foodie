@@ -343,6 +343,26 @@ displaySection() {
   return div;
 }
 
+displayBody() {
+  DivElement body = DivElement();
+  body.children.add(displaySection());
+  body.children.add(displayLine());
+
+  body.children.add(displaySection());
+  body.children.add(displayLine());
+
+  body.children.add(displaySection());
+  body.children.add(displayLine());
+
+  body.children.add(displaySection());
+  body.children.add(displayLine());
+
+  body.children.add(displaySection());
+  body.children.add(displayLine());
+  body.className = "section-body";
+  return body;
+}
+
 displayLine() {
   DivElement div = DivElement();
   Element hr = Element.hr();
@@ -353,14 +373,14 @@ displayLine() {
   return div;
 }
 
-displayCompSection() {
-  DivElement div = DivElement();
-  div.children.add(displaySection());
-  div.children.add(displayCompSection());
-  return div;
-}
+// displayCompSection() {
+//   DivElement div = DivElement();
+//   div.children.add(displaySection());
+//   div.children.add(displayCompSection());
+//   return div;
+// }
 
-DisplaybuttomDiv() {
+displaybuttomDiv() {
   DivElement div = DivElement();
   DivElement div1 = DivElement();
   DivElement div2 = DivElement();
