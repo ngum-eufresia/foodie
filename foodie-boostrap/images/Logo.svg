@@ -1,0 +1,10 @@
+<svg id="Logo" xmlns="http://www.w3.org/2000/svg" width="149.736" height="39.529" viewBox="0 0 149.736 39.529">
+  <rect id="Base_Logo_background" data-name="Base/Logo background" width="144" height="39.529" transform="translate(3.031)" fill="none"/>
+  <g id="Logo_Text_" data-name="Logo Text " transform="translate(39.736 7.059)">
+    <text id="Logoholder" transform="translate(0 16)" fill="#2e384d" font-size="17" font-family="Rubik" font-weight="500" letter-spacing="-0.025em"><tspan x="0" y="0">LOGOHOLDER</tspan></text>
+  </g>
+  <g id="Loco_Icon_" data-name="Loco Icon ">
+    <path id="Rectangle" d="M19.765,0V13.176A19.765,19.765,0,0,1,0,32.941V19.765A19.765,19.765,0,0,1,19.765,0Z" transform="translate(3.031)" fill="#2cc2a5"/>
+    <path id="Rectangle-2" data-name="Rectangle" d="M29.839,1.2,25.333,13.579A19.765,19.765,0,0,1,0,25.392L4.507,13.01A19.765,19.765,0,0,1,29.839,1.2Z" transform="translate(0 6.974)" fill="#2e5bff"/>
+  </g>
+</svg>

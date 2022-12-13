@@ -1,0 +1,46 @@
+
+
+
+.nav-item a.active {
+background: #E0E7FF 0% 0% no-repeat padding-box;
+
+}
+
+ul.nav{
+    margin-top: 70px;
+}
+div.col-md-1{
+    width: 68px;
+}
+
+.my-container{
+   border: 1px solid #70707091;
+
+}
+.card1{
+background: #2E5BFF 0% 0% no-repeat padding-box;
+    
+}
+.card2{
+    background: #F7C137 0% 0% no-repeat padding-box;
+    
+}
+.card3{
+    background: #8C54FF 0% 0% no-repeat padding-box
+}
+.card4{
+    background: #00C1D4 0% 0% no-repeat padding-box;
+    
+}
+
+div.col-md-11{
+    background: #F4F6FC 0% 0% no-repeat padding-box;
+}
+.feedback{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+}
+#break{
+  border: 1px solid blue;
+}
+
+
