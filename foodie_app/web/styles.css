@@ -27,7 +27,7 @@ html, body {
 }
 
 #column-1{
- background-color:#EEEEEE;
+ background-color:#EEEEEE !important;
 }
 #column-2{
   background-color: #00000029;
@@ -81,7 +81,8 @@ a.nav-link{
  background: #FFFFFFC9 0% 0% no-repeat padding-box;
  border: 1px solid #70707091;
  margin-left: 95px;
-
+ width: 207px !important;
+ height: 32px;
  
 }
 .search-tool {
@@ -148,7 +149,7 @@ a.nav-link{
 
 .food-card{
   /* margin-left: 65px; */
-  background: #ECECEC 0% 0% no-repeat padding-box;
+  background: rgba(255, 255, 255, 0.582) !important;
   width:219px;
   margin-bottom: 65px;
 }
@@ -178,6 +179,7 @@ a.nav-link{
 .my_row{
   padding-left: 65px;
   padding-right: 45px;
+  
 
 }
 .empty{
@@ -300,6 +302,25 @@ opacity: 1;
 /* For mobile phones: */
 [class*="col-"] {
   width: 100%;
+}
+
+/* @media only screen and (max-width: 1400px) {
+  div.column-2 {
+    width: 25%;
+  } */
+
+@media only screen and (min-width: 1180px) {
+  div.my-row{
+    justify-content: space-between;  
+  }
+
+   div.column-2 {
+    width: 25%;
+  }
+  div.colunm-1{
+    margin-left: 6px;
+
+  }
 }
 
 @media only screen and (min-width: 600px) {

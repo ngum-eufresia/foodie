@@ -17,19 +17,19 @@ displayHead() {
   p.text = "Wednesday 24, nov 2022";
   div.children.add(h3);
   div.children.add(p);
-  div.className = "col-6";
+  div.className = "col-md-6";
   i.className = "fas fa-search";
   div2.children.add(i);
   div2.className = "search-tool";
   input.type = "text";
   input.placeholder = "";
-  input.className = "rounded-1 ps-4";
+  input.className = "rounded-1 form-control ps-4";
 
   div3.children.add(input);
   div1.children.add(div2);
   div1.children.add(div3);
 
-  div1.className = "col-6 ps-5  ps-5";
+  div1.className = "col-md-6 ps-5  ps-5";
 
   myDiv.children.add(div);
   myDiv.children.add(div1);
@@ -240,12 +240,12 @@ displayHeader() {
 
   div6.className = "empty";
   div7.children.add(div6);
-  div7.className = "ps-3  pb-1 bd-highlight";
+  div7.className = "ps-3 pb-1 bd-highlight";
 
   div1.children.add(div3);
   div1.children.add(div5);
   div1.children.add(div7);
-  div1.className = "d-flex bd-highlight ps-3 mb-3";
+  div1.className = "d-md-flex justify-content-start";
 
   // div2.children.add(div3);
   // div2.className = "ps-3  pb-1 bd-highlight";
@@ -292,10 +292,10 @@ displaySection() {
   ImageElement delete = ImageElement();
   HeadingElement h6 = HeadingElement.h6();
 
-  image.src = "images/smalhandurger.png";
+  image.src = "images/handburger1.png";
   image.width = 60;
   div1.children.add(image);
-  div1.className = "p-2 pe-1 ps-5 bd-highlight";
+  div1.className = "p-2 pe-1 ps-2 bd-highlight";
 
   h6.text = "Item name";
   p.text = "1500 FCFA";
@@ -308,7 +308,7 @@ displaySection() {
       "ps-3 pt-0 three-image bd-highlight mt-2 justify-content-center";
   div5.text = "4500";
   div5.className = " amount pt-3 bd-highlight";
-
+  div6.children.add(div1);
   div6.children.add(div2);
   div6.children.add(div3);
   div6.children.add(div4);
@@ -327,7 +327,7 @@ displaySection() {
 
   delete.src = "images/delete.png";
   div9.children.add(delete);
-  div9.className = "delete ps-3";
+  div9.className = "delete ps-3 pt-2";
   newDiv1.children.add(div9);
   newDiv1.className = "ps-1 bd-highlight";
 

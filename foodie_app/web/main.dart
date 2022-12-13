@@ -29,7 +29,7 @@ void main() {
 displayColumn1() {
   DivElement div = DivElement();
   //column1.children.add(displayRow1());
-  column1.className = "column-1 col-8";
+  column1.className = "column-1 col-md-8";
   column1.children.add(displayHead());
   column1.children.add(displayNavBar());
   column1.children.add(displayHr());
@@ -52,15 +52,15 @@ displayColumn1() {
   row2.children.add(displayColMid());
   row2.children.add(displayColEnd());
 
-  row2.className = "my_row row gx-3";
+  row2.className = "my_row row gx-5";
   column1.children.add(row2);
 
-  column1.className = "column-1 col-8 mb-2";
+  column1.className = "column-1 col-md-8 mb-2";
 
   column2.children.add(displayHeader());
 
   column2.children.add(displayBody());
 
   column2.children.add(displaybuttomDiv());
-  column2.className = "column-2 col-4 m-0 p-0";
+  column2.className = "column-2 col-md-4 m-0 p-0";
 }
