@@ -3,6 +3,13 @@
 
 .nav-item a.active {
 background: #E0E7FF 0% 0% no-repeat padding-box;
+border-left: 2px solid #2E5BFF;
+
+}
+a.nav-link  :hover{
+background: #E0E7FF 0% 0% no-repeat;
+border-left: 2px solid #2E5BFF;
+
 
 }
 
@@ -43,4 +50,29 @@ div.col-md-11{
   border: 1px solid blue;
 }
 
+hr{
+    border : 1px solid red;
+}
+.input-group{
+    padding-left: 110px;
+}
+#text-input{
+    border: 0px;
+    border-bottom: 2px solid #F4F6FC;
+    padding-left: 50px;
+    font-size: 10px;
 
+}
+.search-icon{
+ position:relative;
+ z-index:1;
+ left: 25px;
+ top: 1px;
+}
+#mail{
+    margin-left: 22px;
+}
+#export-but{
+    width: 150px;
+
+}
