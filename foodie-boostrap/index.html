@@ -15,7 +15,7 @@
     <!-- Bootstrap -->
     <link href="boostrap/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <link href="font_awesome/awesome.css" rel="stylesheet">
+    <link href="fonts-6/css/all.css" rel="stylesheet">
 </head>
 
 <body>
@@ -43,7 +43,7 @@
                     <img src="images/Mail.svg" rel="">
 
                 </div>
-                <div class="col-md-1" id = "mail">
+                <div class="col-md-1" id="mail">
                     <img src="images/Mail.svg" rel="">
                 </div>
                 <div class="col-md-1">
@@ -54,7 +54,7 @@
 
         <div class="container">
             <div class="row">
-                <div class="col-md-1 ps-md-0 pe-md-0">
+                <div class="col-md-1 col-sm-1 ps-md-0 pe-md-0">
                     <ul class="nav flex-column">
                         <li class="nav-item">
                             <a class="nav-link active" href="#">
@@ -85,7 +85,7 @@
                         <div class="d-flex flex-row bd-highlight justify-content-md-between">
                             <div class="p-2 pt-md-4 bd-highlight">DASHBOARD</div>
                             <div class="p-2 pt-md-4 bd-highlight">
-                                <button type="button" class="btn btn-primary mb-md-2" id = "export-but">export data
+                                <button type="button" class="btn btn-primary mb-md-2" id="export-but">export data
                                 </button>
                             </div>
                         </div>
@@ -174,63 +174,203 @@
                             </div>
                         </section>
                         <div class="section">
-
-                            <div class="container">
-                                <div class="row pt-md-4">
-                                    <div class="col-md-4  feedback">
-                                        <div class="d-md-flex flex-row bd-highlight justify-content-md-between">
-                                            <div>
-                                                <p>latest calls</p>
-                                            </div>
-                                            <div>
-                                                <i class="fa-solid fa-ellipsis"></i>
-                                            </div>
+                            <div class="w-full d-flex flex-column flex-md-row py-4 justify-content-between">
+                                <div class=" w-full bg-white py-2 me-0 me-md-2 px-2">
+                                    <div class="d-md-flex flex-row bd-highlight justify-content-md-between">
+                                        <div>
+                                            <p class="fw-lighter">latest calls</p>
                                         </div>
-
-                                        <div class="d-md-flex flex-row bd-highlight justify-content-md-between">
-                                            <div>
-                                                <h6>Lina Warner</h6>
-                                                <p> 06/03/2018</p>
-                                            </div>
-                                            <div>
-                                                <h6>Negative</h6>
-                                                <p>24mins</p>
-                                            </div>
+                                        <div>
+                                            <i class="fa-solid fa-ellipsis"></i>
                                         </div>
-
-                                        <div class="d-md-flex flex-row bd-highlight justify-content-md-between">
-                                            <div>
-                                                <h6>Myra Park</h6>
-                                                <p class=""> 06/03/2018</p>
-                                            </div>
-                                            <div>
-                                                <h6>Negative</h6>
-                                                <p>24mins</p>
-                                            </div>
-                                        </div>
-
-
                                     </div>
-                                    <div class="col-md-5 feedback2">
-                                        Column
+
+                                    <div class="d-md-flex bd-highlight justify-content-md-between">
+                                        <div>
+                                            <h6>Lina Warner</h6>
+                                            <p class="fw-lighter"> 06/03/2018</p>
+                                        </div>
+                                        <div>
+                                            <h6 class="text-warning">Positive</h6>
+                                            <p class="fw-lighter">24mins</p>
+                                        </div>
                                     </div>
-                                    <div class="col-md-3 feedback3 ">
-                                        <div class="container">
-                                            <div class="row">
-                                                <div class=" col-12">
-                                                    hello world
-                                                </div>
-                                                <div class=" col-12">
-                                                    hello world
-                                                </div>
+
+                                    <div class="d-md-flex bd-highlight justify-content-md-between">
+                                        <div>
+                                            <h6>Myra Park</h6>
+                                            <p class="fw-lighter"> 06/03/2018</p>
+                                        </div>
+                                        <div>
+                                            <h6 class="text-primary">Negative</h6>
+                                            <p class="fw-lighter">14mins</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="d-md-flex bd-highlight justify-content-md-between">
+                                        <div>
+                                            <h6>Myra Park</h6>
+                                            <p class="fw-lighter"> 06/03/2018</p>
+                                        </div>
+                                        <div>
+                                            <h6 class="text-success">Neutral</h6>
+                                            <p class="fw-lighter">12mins</p>
+                                        </div>
+                                    </div>
+                                    <div class="d-md-flex flex-row bd-highlight justify-content-md-between">
+                                        <div>
+                                            <h6>Myra Park</h6>
+                                            <p class="fw-lighter"> 06/03/2018</p>
+                                        </div>
+                                        <div>
+                                            <h6 class="text-warning">Positive</h6>
+                                            <p class="fw-lighter">14mins</p>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+                                <div class="px-2 bg-white border border-light py-2 w-full  mx-0 mx-md-2">
+
+                                    <div class="d-md-flex flex-row bd-highlight justify-content-md-between">
+                                        <div>
+                                            <p class="fw-lighter">latest calls</p>
+                                        </div>
+                                        <div>
+                                            <i class="fa-solid fa-ellipsis"></i>
+                                        </div>
+                                    </div>
+                                    <div class="d-md-flex flex-row bd-highlight justify-content-md-between">
+                                        <div>
+                                            <img src="images/pie _chat.png" class="pt-md-3" rel="">
+                                        </div>
+                                        <div>
+                                            <ul class="list-group border-0">
+                                                <li class="list-group-item border border-0">
+                                                    <div class=" d-inline-flex rounded-4 d-inline-flex  bg-primary"
+                                                        id="color-circles"></div>
+                                                    First checkbox
+                                                </li>
+                                                <li class="list-group-item border border-0">
+                                                    <div class=" d-inline-flex rounded-4 d-inline-flex  bg-warning"
+                                                        id="color-circles"></div>
+                                                    Second checkbox
+                                                </li>
+                                                <li class="list-group-item border border-0">
+                                                    <div class=" d-inline-flex rounded-4 d-inline-flex  bg-primary"
+                                                        id="color-circles"></div>
+                                                    Third checkbox
+                                                </li>
+                                                <li class="list-group-item border border-0">
+                                                    <div class=" d-inline-flex rounded-4 d-inline-flex  bg-primary"
+                                                        id="color-circles"></div>
+                                                    Fourth checkbox
+                                                </li>
+                                                <li class="list-group-item border border-0">
+                                                    <div class=" d-inline-flex rounded-4 d-inline-flex  bg-info"
+                                                        id="color-circles"></div>
+                                                    Fifth checkbox
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="bg-white border border-light w-full ms-0 ms-md-2">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class=" col-12 border border-light">
+                                                hello world
+                                            </div>
+                                            <div class=" col-12 border border-light">
+                                                hello world
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+                            </div>
 
-                                </section>
+                            </section>
+
+
+                        </div>
+
+                        <div class="section">
+                            <div class="d-flex bd-highlight mb-3">
+
+                                <div class="p-2 bd-highlight">Flex item</div>
+                                <div class="me-auto p-2 bd-highlight">Flex item</div>
+
+
+                                <div class="p-2 bd-highlight">Flex item</div>
+                                <div class="p-2 bd-highlight">Flex item</div>
 
                             </div>
+
+
+
+                            <table class="table table-borderless table-responsive-sm table-responsive">
+                                <thead class="">
+                                    <tr>
+                                        <th scope="col"></th>
+                                        <th scope="col"></th>
+                                        <th scope="col">NAME</th>
+                                        <th scope="col">CALL ID</th>
+                                        <th scope="col">CALL TIME</th>
+                                        <th scope="col">CALL DATE</th>
+                                        <th scope="col">PHONE NO.</th>
+                                        <th scope="col">DURATION</th>
+                                        <th scope="col">WORDS</th>
+                                        <th scope="col">FEEDBACK</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="table-body">
+                                    <tr>
+                                        <th  class = "text-black-50"scope="row">1</th>
+                                        <td class="table-image">
+                                            <img src="images/Bitmap.png" class="rounded-5 img-fluid w-75">
+                                        </td>
+                                        <td>Edgar Matthews</td>
+                                        <td id="call-id">#12345645</td>
+                                        <td>13:00:00</td>
+                                        <td>08/21/2019</td>
+                                        <td>408-651-8651</td>
+                                        <td>10min</td>
+                                        <td>200</td>
+                                        <td class="text-warning">positive</td>
+                                    </tr>
+                                    <tr>
+                                        <th class = "text-black-50" scope="row">2</th>
+                                        <td class="table-image">
+                                            <img src="images/Bitmap.png" class="rounded-5 img-fluid w-75">
+                                        </td>
+                                        <td>Bernard Taylor</td>
+                                        <td id="call-id">#12345645</td>
+                                        <td>13:00:00</td>
+                                        <td>08/21/2019</td>
+                                        <td>408-651-8651</td>
+                                        <td>10min</td>
+                                        <td>200</td>
+                                        <td class="text-primary">Negative</td>
+                                    </tr>
+                                    <tr>
+                                        <th class = "text-black-50" scope="row">3</th>
+                                        <td class="table-image">
+                                            <img src="images/Bitmap.png" class="rounded-5 img-fluid w-75">
+                                        </td>
+                                        <td>Gene Thornton</td>
+                                        <td id="call-id">#12345645</td>
+                                        <td>13:00:00</td>
+                                        <td>08/21/2019</td>
+                                        <td>408-651-8651</td>
+                                        <td>10min</td>
+                                        <td>200</td>
+                                        <td class="text-info">Neutral</td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
 
                     </div>

@@ -76,3 +76,38 @@ hr{
     width: 150px;
 
 }
+#columns{
+    width: 20% !important;
+}
+#color-circles{
+    width:20px;
+    height: 20px;
+    border-radius: 6px;
+}
+.table-image{
+    width: 50px;
+}
+.table-body{
+    background: #FFFFFF;
+}
+.table {
+  border-collapse: separate;
+  border-spacing: 0 7px;
+}
+
+th {
+  color: white;
+}
+
+thead tr th{
+color: #BFC5D2;
+font-size: 10px;
+}
+th,
+td {
+  text-align: center;
+  padding: 5px;
+}
+#call-id{
+  color: #BFC5D2;  
+}
