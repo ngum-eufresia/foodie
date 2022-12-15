@@ -81,7 +81,7 @@
 
 
                 <div class="col-md-11 bg-gradient mt-md-2 ps-md-0">
-                    <div class="section p-5">
+                    <div class="section p-5 pb-2">
                         <div class="d-flex flex-row bd-highlight justify-content-md-between">
                             <div class="p-2 pt-md-4 bd-highlight">DASHBOARD</div>
                             <div class="p-2 pt-md-4 bd-highlight">
@@ -298,83 +298,115 @@
                         </div>
 
                         <div class="section">
-                            <div class="d-flex bd-highlight mb-3">
+                            <div class="d-md-flex flex-sm-wrap bd-highlight mb-2 mt-3">
 
-                                <div class="p-2 bd-highlight">Flex item</div>
-                                <div class="me-auto p-2 bd-highlight">Flex item</div>
+                                <div class="p-2 bd-highlight">
+                                    <h5 class="fw-light"> Customer Call Details List</h5>
+
+                                </div>
+                                <div class="me-auto p-2 bd-highlight">200 Total</div>
 
 
-                                <div class="p-2 bd-highlight">Flex item</div>
-                                <div class="p-2 bd-highlight">Flex item</div>
+                                <div class="p-2 bd-highlight">
+                                    <button class="text-primary btn btn-light border border-primary">
+                                        GROUPING
+                                    </button>
+                                </div>
+                                <div class="p-2 bd-highlight">
+                                    <button class=" btn btn-primary">
+                                        FILTER
+                                    </button>
+                                </div>
 
                             </div>
 
 
+                            <div class="table-responsive">
+                                <table class="table table-borderless">
+                                    <thead class="">
+                                        <tr>
+                                            <th scope="col"></th>
+                                            <th scope="col"></th>
+                                            <th class="dropdown-toggle" id="dropdownMenuButton1"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                NAME
+                                            </th>
+                                            <th scope="col">CALL ID</th>
+                                            <th scope="col">CALL TIME</th>
+                                            <th scope="col">CALL DATE</th>
+                                            <th scope="col">PHONE NO.</th>
+                                            <th scope="col">DURATION</th>
+                                            <th scope="col">WORDS</th>
+                                            <th scope="col">FEEDBACK</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="table-body">
+                                        <tr>
+                                            <th class="text-black-50" scope="row">1</th>
+                                            <td class="table-image">
+                                                <img src="images/Bitmap.png" class="rounded-5 img-fluid w-75">
+                                            </td>
+                                            <td>Edgar Matthews</td>
+                                            <td id="call-id">#12345645</td>
+                                            <td>13:00:00</td>
+                                            <td>08/21/2019</td>
+                                            <td>408-651-8651</td>
+                                            <td>10min</td>
+                                            <td>200</td>
+                                            <td class="text-warning dropdown-toggle" id="dropdownMenuButton1"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                Neutral
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th class="text-black-50" scope="row">2</th>
+                                            <td class="table-image">
+                                                <img src="images/Bitmap.png" class="rounded-5 img-fluid w-75">
+                                            </td>
+                                            <td>Bernard Taylor</td>
+                                            <td id="call-id">#12345645</td>
+                                            <td>13:00:00</td>
+                                            <td>08/21/2019</td>
+                                            <td>408-651-8651</td>
+                                            <td>10min</td>
+                                            <td>200</td>
+                                            <td class=" text-primary dropdown-toggle" id="dropdownMenuButton1"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                Negative
+                                            </td>
 
-                            <table class="table table-borderless table-responsive-sm table-responsive">
-                                <thead class="">
-                                    <tr>
-                                        <th scope="col"></th>
-                                        <th scope="col"></th>
-                                        <th scope="col">NAME</th>
-                                        <th scope="col">CALL ID</th>
-                                        <th scope="col">CALL TIME</th>
-                                        <th scope="col">CALL DATE</th>
-                                        <th scope="col">PHONE NO.</th>
-                                        <th scope="col">DURATION</th>
-                                        <th scope="col">WORDS</th>
-                                        <th scope="col">FEEDBACK</th>
-                                    </tr>
-                                </thead>
-                                <tbody class="table-body">
-                                    <tr>
-                                        <th  class = "text-black-50"scope="row">1</th>
-                                        <td class="table-image">
-                                            <img src="images/Bitmap.png" class="rounded-5 img-fluid w-75">
-                                        </td>
-                                        <td>Edgar Matthews</td>
-                                        <td id="call-id">#12345645</td>
-                                        <td>13:00:00</td>
-                                        <td>08/21/2019</td>
-                                        <td>408-651-8651</td>
-                                        <td>10min</td>
-                                        <td>200</td>
-                                        <td class="text-warning">positive</td>
-                                    </tr>
-                                    <tr>
-                                        <th class = "text-black-50" scope="row">2</th>
-                                        <td class="table-image">
-                                            <img src="images/Bitmap.png" class="rounded-5 img-fluid w-75">
-                                        </td>
-                                        <td>Bernard Taylor</td>
-                                        <td id="call-id">#12345645</td>
-                                        <td>13:00:00</td>
-                                        <td>08/21/2019</td>
-                                        <td>408-651-8651</td>
-                                        <td>10min</td>
-                                        <td>200</td>
-                                        <td class="text-primary">Negative</td>
-                                    </tr>
-                                    <tr>
-                                        <th class = "text-black-50" scope="row">3</th>
-                                        <td class="table-image">
-                                            <img src="images/Bitmap.png" class="rounded-5 img-fluid w-75">
-                                        </td>
-                                        <td>Gene Thornton</td>
-                                        <td id="call-id">#12345645</td>
-                                        <td>13:00:00</td>
-                                        <td>08/21/2019</td>
-                                        <td>408-651-8651</td>
-                                        <td>10min</td>
-                                        <td>200</td>
-                                        <td class="text-info">Neutral</td>
-                                    </tr>
-                                </tbody>
-                            </table>
+                                        </tr>
+                                        <tr>
+                                            <th class="text-black-50" scope="row">3</th>
+                                            <td class="table-image">
+                                                <img src="images/Bitmap.png" class="rounded-5 img-fluid w-75">
+                                            </td>
+                                            <td>Gene Thornton</td>
+                                            <td id="call-id">#12345645</td>
+                                            <td>13:00:00</td>
+                                            <td>08/21/2019</td>
+                                            <td>408-651-8651</td>
+                                            <td>10min</td>
+                                            <td>200</td>
+                                            <td class="dropdown-toggle" id="dropdownMenuButton1"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                Neutral
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
                         </div>
-
+                    </div>
+                    <div class="text-center pb-5">
+                        <button class=" btn btn-primary">
+                            Load more
+                        </button>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>

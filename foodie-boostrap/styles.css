@@ -22,6 +22,7 @@ div.col-md-1{
 
 .my-container{
    border: 1px solid #70707091;
+   
 
 }
 .card1{
@@ -73,7 +74,7 @@ hr{
     margin-left: 22px;
 }
 #export-but{
-    width: 150px;
+   
 
 }
 #columns{
@@ -111,3 +112,13 @@ td {
 #call-id{
   color: #BFC5D2;  
 }
+div button{
+     width: 150px
+
+}
+.me-auto{
+    font-size: 12px;
+    color: #BFC5D2;
+    margin-top: 6px;
+}
+
