@@ -19,44 +19,20 @@
 </head>
 
 <body>
-    <div class="container my-container ps-md-0">
-        <div class="container">
-            <div class="row mt-5 ps-md-2">
-                <div class="col-md-1">
-                    <img src="images/stats.svg" alt="">
-                </div>
-                <div class="col-md-1">
-                    <img src="images/Logo.svg" rel="" ;>
-                </div>
-
-                <div class="col-md-7">
-                    <div class="input-group ms-md-5 mb-3">
-                        <span class="search-icon" id="basic-addon1">
-                            <i class="fa fa-search ps-md-5"></i>
-                        </span>
-                        <input type="text" class="form-control text-muted" id="text-input"
-                            placeholder="Type here to search......" aria-label="">
-                    </div>
-                </div>
-
-                <div class="col-md-1 ps-md-5">
-                    <img src="images/Mail.svg" rel="">
-
-                </div>
-                <div class="col-md-1" id="mail">
-                    <img src="images/Mail.svg" rel="">
-                </div>
-                <div class="col-md-1">
-                    <img src="images/Bitmap.png" class="rounded-5 img-fluid w-50" rel="">
-                </div>
-            </div>
-        </div>
+    <div class="container my-container mt-1 ps-md-0">
 
         <div class="container">
             <div class="row">
-                <div class="col-md-1 col-sm-1 ps-md-0 pe-md-0">
-                    <ul class="nav flex-column">
-                        <li class="nav-item">
+                <div class="col-md-1 d-none d-md-block d-sm-none col-sm-1 ps-md-0 m-md-0">
+                    <ul class="nav mt-md-5">
+
+                        <li class="nav-item pb-md-5">
+                            <a class="nav-link" href="#">
+                                <img src="images/stats.svg" alt="">
+                            </a>
+                        </li>
+
+                        <li class="nav-item pt-md-5">
                             <a class="nav-link active" href="#">
                                 <img src="images/dashboard.svg" alt="">
                             </a>
@@ -79,19 +55,83 @@
                     </ul>
                 </div>
 
+                <div class="col-md-1 flex-sm-col d-block d-md-none d-sm-block col-sm-1 ps-md-0 m-md-0">
+                    <ul class="nav mt-md-5 list-group list-group-horizontal">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <img src="images/stats.svg" alt="">
+                            </a>
+                        </li>
 
-                <div class="col-md-11 bg-gradient mt-md-2 ps-md-0">
-                    <div class="section p-5 pb-2">
-                        <div class="d-flex flex-row bd-highlight justify-content-md-between">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">
+                                <img src="images/dashboard.svg" alt="">
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <img src="images/stats.svg" alt="">
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <img src="images/Mail.svg" alt="">
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">
+                                <img src="images/Settings.svg" alt="">
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+
+
+                <div class="col-md-11 mt-md-2 m-md-0 p-md-0">
+
+                    <div class="row mt-5 ps-md-2">
+                        <div class="col-md-1 ps-md-5 ms-m">
+                        </div>
+                        <div class="col-md-1">
+                            <img src="images/Logo.svg" rel="" ;>
+                        </div>
+
+                        <div class="col-md-7">
+                            <div class="input-group justify-content-center justify-content-sm-center ms-md-5 mb-3  ">
+                                <span class="search-icon" id="basic-addon1">
+                                    <i class="fa fa-search ps-md-5"></i>
+                                </span>
+                                <input type="text" class="form-control text-muted" id="text-input"
+                                    placeholder="Type here to search......" aria-label="">
+                            </div>
+                        </div>
+
+                        <div class="col-md-1 ps-md-5" id="mail-box">
+                            <img src="images/Mail.svg" rel="">
+
+                        </div>
+                        <div class="col-md-1" id="mail">
+                            <img src="images/Mail.svg" rel="">
+                        </div>
+                        <div class="col-md-1">
+                            <img src="images/Bitmap.png" class="rounded-5 img-fluid w-50" rel="">
+                        </div>
+                    </div>
+
+
+                    <div class="section p-md-5 pt-md-4 p-sm-3 pb-2 mt-md-3" id="body">
+                        <div
+                            class="d-flex flex-row flex-wrap bd-highlight justify-content-md-between justify-content-sm-between justify-content-between">
                             <div class="p-2 pt-md-4 bd-highlight">DASHBOARD</div>
-                            <div class="p-2 pt-md-4 bd-highlight">
+                            <div class="p-2 flex-row  pt-md-4 bd-highlight">
                                 <button type="button" class="btn btn-primary mb-md-2" id="export-but">export data
                                 </button>
                             </div>
                         </div>
 
                         <div class="row pb-md-3">
-                            <div class="col-md-3">
+                            <div class="col-md-3 col-sm-6 pb-sm-2">
                                 <div class="card card1">
                                     <div class="card-body">
                                         <h5 class="card-title">
@@ -109,7 +149,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-md-3 col-sm-6 pb-sm-2">
                                 <div class="card card2">
                                     <div class="card-body">
                                         <h5 class="card-title">
@@ -128,7 +168,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-md-3">
+                            <div class="col-md-3 col-sm-6  pb-sm-2">
                                 <div class="card card3">
                                     <div class="card-body">
                                         <h5 class="card-title">
@@ -146,7 +186,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-md-3 col-sm-6 pb-sm-2 ">
                                 <div class="card card4">
                                     <div class="card-body">
                                         <h5 class="card-title btn-p">
@@ -165,77 +205,75 @@
                                 </div>
                             </div>
                         </div>
-                        </section>
                         <section>
 
                             <div>
-                                <img src="images/map.png" class="img-fluid">
+                                <img src="images/map.png" class="img-fluid w-100">
 
                             </div>
                         </section>
                         <div class="section">
-                            <div class="w-full d-flex flex-column flex-md-row py-4 justify-content-between">
-                                <div class=" w-full bg-white py-2 me-0 me-md-2 px-2">
-                                    <div class="d-md-flex flex-row bd-highlight justify-content-md-between">
-                                        <div>
-                                            <p class="fw-lighter">latest calls</p>
+                            <div class="row pt-3 pb-5" id="call-cards">
+                                <div class=" col-12 col-sm-6 col-md-4 pe-3">
+                                    <div class="h-100 px-3 pt-4 pb-2 " id="feedback">
+                                        <div class="d-md-flex flex-row bd-highlight justify-content-between">
+                                            <div>
+                                                <p class="fw-lighter">latest calls</p>
+                                            </div>
+                                            <div>
+                                                <i class="fa-solid fa-ellipsis"></i>
+                                            </div>
                                         </div>
-                                        <div>
-                                            <i class="fa-solid fa-ellipsis"></i>
+
+                                        <div class="d-md-flex bd-highlight justify-content-md-between">
+                                            <div>
+                                                <h6>Lina Warner</h6>
+                                                <p class="fw-lighter"> 06/03/2018</p>
+                                            </div>
+                                            <div>
+                                                <h6 class="text-warning">Positive</h6>
+                                                <p class="fw-lighter">24mins</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="d-md-flex bd-highlight justify-content-md-between">
+                                            <div>
+                                                <h6>Myra Park</h6>
+                                                <p class="fw-lighter"> 06/03/2018</p>
+                                            </div>
+                                            <div>
+                                                <h6 class="text-primary">Negative</h6>
+                                                <p class="fw-lighter">14mins</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="d-md-flex bd-highlight justify-content-md-between">
+                                            <div>
+                                                <h6>Myra Park</h6>
+                                                <p class="fw-lighter"> 06/03/2018</p>
+                                            </div>
+                                            <div>
+                                                <h6 class="text-success">Neutral</h6>
+                                                <p class="fw-lighter">12mins</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-md-flex flex-row bd-highlight justify-content-md-between">
+                                            <div>
+                                                <h6>Myra Park</h6>
+                                                <p class="fw-lighter"> 06/03/2018</p>
+                                            </div>
+                                            <div>
+                                                <h6 class="text-warning">Positive</h6>
+                                                <p class="fw-lighter">14mins</p>
+                                            </div>
                                         </div>
                                     </div>
-
-                                    <div class="d-md-flex bd-highlight justify-content-md-between">
-                                        <div>
-                                            <h6>Lina Warner</h6>
-                                            <p class="fw-lighter"> 06/03/2018</p>
-                                        </div>
-                                        <div>
-                                            <h6 class="text-warning">Positive</h6>
-                                            <p class="fw-lighter">24mins</p>
-                                        </div>
-                                    </div>
-
-                                    <div class="d-md-flex bd-highlight justify-content-md-between">
-                                        <div>
-                                            <h6>Myra Park</h6>
-                                            <p class="fw-lighter"> 06/03/2018</p>
-                                        </div>
-                                        <div>
-                                            <h6 class="text-primary">Negative</h6>
-                                            <p class="fw-lighter">14mins</p>
-                                        </div>
-                                    </div>
-
-                                    <div class="d-md-flex bd-highlight justify-content-md-between">
-                                        <div>
-                                            <h6>Myra Park</h6>
-                                            <p class="fw-lighter"> 06/03/2018</p>
-                                        </div>
-                                        <div>
-                                            <h6 class="text-success">Neutral</h6>
-                                            <p class="fw-lighter">12mins</p>
-                                        </div>
-                                    </div>
-                                    <div class="d-md-flex flex-row bd-highlight justify-content-md-between">
-                                        <div>
-                                            <h6>Myra Park</h6>
-                                            <p class="fw-lighter"> 06/03/2018</p>
-                                        </div>
-                                        <div>
-                                            <h6 class="text-warning">Positive</h6>
-                                            <p class="fw-lighter">14mins</p>
-                                        </div>
-                                    </div>
-
-
                                 </div>
 
-                                <div class="px-2 bg-white border border-light py-2 w-full  mx-0 mx-md-2">
-
-                                    <div class="d-md-flex flex-row bd-highlight justify-content-md-between">
+                                <div class=" col-6 col-sm-6 col-md-5 pt-4" id="pie-chat">
+                                    <div class="d-md-flex flex-row bd-highlight justify-content-center justify-content-sm-center justify-content-md-between">
                                         <div>
-                                            <p class="fw-lighter">latest calls</p>
+                                            <p class="fw-lighter">CALL DETAILS STATUS</p>
                                         </div>
                                         <div>
                                             <i class="fa-solid fa-ellipsis"></i>
@@ -243,34 +281,35 @@
                                     </div>
                                     <div class="d-md-flex flex-row bd-highlight justify-content-md-between">
                                         <div>
-                                            <img src="images/pie _chat.png" class="pt-md-3" rel="">
+                                            <img src="images/pie _chat.png" class="pt-md-3 ps-5 img-fluid" rel="">
                                         </div>
-                                        <div>
-                                            <ul class="list-group border-0">
+                                        <div class="pe-4">
+                                            <ul class="list-group border-0" id="ul-list">
                                                 <li class="list-group-item border border-0">
-                                                    <div class=" d-inline-flex rounded-4 d-inline-flex  bg-primary"
-                                                        id="color-circles"></div>
-                                                    First checkbox
+                                                    <div class=" d-inline-flex  rounded-4 d-inline-flex  bg-primary"
+                                                        id="color-circles">
+                                                    </div>
+                                                    Negative Response
                                                 </li>
                                                 <li class="list-group-item border border-0">
                                                     <div class=" d-inline-flex rounded-4 d-inline-flex  bg-warning"
                                                         id="color-circles"></div>
-                                                    Second checkbox
+                                                    Neutral Response
                                                 </li>
                                                 <li class="list-group-item border border-0">
                                                     <div class=" d-inline-flex rounded-4 d-inline-flex  bg-primary"
                                                         id="color-circles"></div>
-                                                    Third checkbox
+                                                    Positive Response
                                                 </li>
                                                 <li class="list-group-item border border-0">
                                                     <div class=" d-inline-flex rounded-4 d-inline-flex  bg-primary"
                                                         id="color-circles"></div>
-                                                    Fourth checkbox
+                                                    Average Waiting
                                                 </li>
                                                 <li class="list-group-item border border-0">
                                                     <div class=" d-inline-flex rounded-4 d-inline-flex  bg-info"
                                                         id="color-circles"></div>
-                                                    Fifth checkbox
+                                                    Positive Response
                                                 </li>
                                             </ul>
                                         </div>
@@ -278,27 +317,78 @@
 
                                 </div>
 
-                                <div class="bg-white border border-light w-full ms-0 ms-md-2">
-                                    <div class="container">
-                                        <div class="row">
-                                            <div class=" col-12 border border-light">
-                                                hello world
+                                <div class=" col-6 col-sm-12 col-md-3 px-3">
+                                    <div class="d-flex flex-column h-100 gap-2">
+                                        <div class="h-50  border border-light" id="average-time">
+                                            <h5 class="h5 ps-4 pt-4 pb-3 fw-light">AVERAGE CALLS</h5>
+
+                                            <div class="d-md-flex justify-content-between px-5 pb-2 ">
+                                                <div>
+                                                    <i class="fa-solid fa-phone-volume"></i>
+                                                </div>
+                                                <div>
+                                                    <h3 class = "">8.3</h3>
+                                                </div>
+                                                <div>min</div>
                                             </div>
-                                            <div class=" col-12 border border-light">
-                                                hello world
+                                            <div class="text-center">
+                                                +2.4%
+                                            </div>
+                                        </div>
+
+                                        <div class="h-50 border border-light" id="average-time">
+                                            <h5 class="ps-4 pt-4 pb-3 fw-light">AVERAGE CALLS</h5>
+
+                                            <div class="d-md-flex justify-content-between px-5 pb-2 ">
+                                                <div>
+                                                    <i class="fa-solid fa-phone-volume"></i>
+                                                </div>
+                                                <div>
+                                                    <h3>8.3</h3>
+                                                </div>
+                                                <div>min</div>
+                                            </div>
+                                            <div class="text-center">
+                                                +2.4%
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                </section>
+
+
+                            </div>
+
+                            <div class="section">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="d-md-flex flex-wrap bd-highlight">
+                                            <div class="p-2 bd-highlight">
+                                                <h5 class=" h5 fw-light text-wrap"> Customer Call Details List</h5>
+                                            </div>
+                                            <div class="me-auto p-2 bd-highlight">200 Total</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 d-flex justify-content-md-end justify-content-sm-center">
+                                        <div class="d-md-flex flex-wrap bd-highlight">
+                                            <div class="p-2 bd-highlight">
+                                                <button class="text-primary btn btn-light border border-primary">
+                                                    GROUPING
+                                                </button>
+                                            </div>
+                                            <div class="p-2 bd-highlight order-sm-last">
+                                                <button class=" btn btn-primary">
+                                                    FILTER
+                                                </button>
                                             </div>
                                         </div>
                                     </div>
+
                                 </div>
-                            </div>
 
-                            </section>
-
-
-                        </div>
-
-                        <div class="section">
-                            <div class="d-md-flex flex-sm-wrap bd-highlight mb-2 mt-3">
+                                <!-- <div class="d-md-flex flex-sm-wrap order-sm-first bd-highlight mb-2 mt-3">
 
                                 <div class="p-2 bd-highlight">
                                     <h5 class="fw-light"> Customer Call Details List</h5>
@@ -312,101 +402,113 @@
                                         GROUPING
                                     </button>
                                 </div>
-                                <div class="p-2 bd-highlight">
+                                <div class="p-2 bd-highlight order-sm-last">
                                     <button class=" btn btn-primary">
                                         FILTER
                                     </button>
                                 </div>
 
+                            </div> -->
+
+
+                                <div class="table-responsive">
+                                    <table class="table table-borderless">
+                                        <thead class="">
+                                            <tr>
+                                                <th scope="col"></th>
+                                                <th scope="col"></th>
+                                                <th class="dropdown-toggle" id="dropdownMenuButton1"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    NAME
+                                                </th>
+                                                <th scope="col">CALL ID</th>
+                                                <th scope="col">CALL TIME</th>
+                                                <th scope="col">CALL DATE</th>
+                                                <th scope="col">PHONE NO.</th>
+                                                <th scope="col">DURATION</th>
+                                                <th scope="col">WORDS</th>
+                                                <th scope="col">FEEDBACK</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody class="table-body">
+                                            <tr>
+                                                <th class="text-black-50" scope="row">1</th>
+                                                <td class="table-image">
+                                                    <img src="images/Bitmap.png" class="rounded-5 img-fluid w-75">
+                                                </td>
+                                                <td>Edgar Matthews</td>
+                                                <td id="call-id">#12345645</td>
+                                                <td>13:00:00</td>
+                                                <td>08/21/2019</td>
+                                                <td>408-651-8651</td>
+                                                <td>10min</td>
+                                                <td>200</td>
+                                                <td class="text-warning dropdown-toggle" id="dropdownMenuButton1"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Neutral
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th class="text-black-50" scope="row">2</th>
+                                                <td class="table-image">
+                                                    <img src="images/Bitmap.png" class="rounded-5 img-fluid w-75">
+                                                </td>
+                                                <td>Bernard Taylor</td>
+                                                <td id="call-id">#12345645</td>
+                                                <td>13:00:00</td>
+                                                <td>08/21/2019</td>
+                                                <td>408-651-8651</td>
+                                                <td>10min</td>
+                                                <td>200</td>
+                                                <td class=" text-primary dropdown-toggle" id="dropdownMenuButton1"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Negative
+                                                </td>
+
+                                            </tr>
+                                            <tr>
+                                                <th class="text-black-50" scope="row">3</th>
+                                                <td class="table-image">
+                                                    <img src="images/Bitmap.png" class="rounded-5 img-fluid w-75">
+                                                </td>
+                                                <td>Gene Thornton</td>
+                                                <td id="call-id">#12345645</td>
+                                                <td>13:00:00</td>
+                                                <td>08/21/2019</td>
+                                                <td>408-651-8651</td>
+                                                <td>10min</td>
+                                                <td>200</td>
+                                                <td class="dropdown-toggle" id="dropdownMenuButton1"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Neutral
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
                             </div>
-
-
-                            <div class="table-responsive">
-                                <table class="table table-borderless">
-                                    <thead class="">
-                                        <tr>
-                                            <th scope="col"></th>
-                                            <th scope="col"></th>
-                                            <th class="dropdown-toggle" id="dropdownMenuButton1"
-                                                data-bs-toggle="dropdown" aria-expanded="false">
-                                                NAME
-                                            </th>
-                                            <th scope="col">CALL ID</th>
-                                            <th scope="col">CALL TIME</th>
-                                            <th scope="col">CALL DATE</th>
-                                            <th scope="col">PHONE NO.</th>
-                                            <th scope="col">DURATION</th>
-                                            <th scope="col">WORDS</th>
-                                            <th scope="col">FEEDBACK</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody class="table-body">
-                                        <tr>
-                                            <th class="text-black-50" scope="row">1</th>
-                                            <td class="table-image">
-                                                <img src="images/Bitmap.png" class="rounded-5 img-fluid w-75">
-                                            </td>
-                                            <td>Edgar Matthews</td>
-                                            <td id="call-id">#12345645</td>
-                                            <td>13:00:00</td>
-                                            <td>08/21/2019</td>
-                                            <td>408-651-8651</td>
-                                            <td>10min</td>
-                                            <td>200</td>
-                                            <td class="text-warning dropdown-toggle" id="dropdownMenuButton1"
-                                                data-bs-toggle="dropdown" aria-expanded="false">
-                                                Neutral
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <th class="text-black-50" scope="row">2</th>
-                                            <td class="table-image">
-                                                <img src="images/Bitmap.png" class="rounded-5 img-fluid w-75">
-                                            </td>
-                                            <td>Bernard Taylor</td>
-                                            <td id="call-id">#12345645</td>
-                                            <td>13:00:00</td>
-                                            <td>08/21/2019</td>
-                                            <td>408-651-8651</td>
-                                            <td>10min</td>
-                                            <td>200</td>
-                                            <td class=" text-primary dropdown-toggle" id="dropdownMenuButton1"
-                                                data-bs-toggle="dropdown" aria-expanded="false">
-                                                Negative
-                                            </td>
-
-                                        </tr>
-                                        <tr>
-                                            <th class="text-black-50" scope="row">3</th>
-                                            <td class="table-image">
-                                                <img src="images/Bitmap.png" class="rounded-5 img-fluid w-75">
-                                            </td>
-                                            <td>Gene Thornton</td>
-                                            <td id="call-id">#12345645</td>
-                                            <td>13:00:00</td>
-                                            <td>08/21/2019</td>
-                                            <td>408-651-8651</td>
-                                            <td>10min</td>
-                                            <td>200</td>
-                                            <td class="dropdown-toggle" id="dropdownMenuButton1"
-                                                data-bs-toggle="dropdown" aria-expanded="false">
-                                                Neutral
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
+                            <div class="text-center pb-5">
+                                <button class=" btn btn-primary">
+                                    Load more
+                                </button>
                             </div>
                         </div>
+
                     </div>
-                    <div class="text-center pb-5">
-                        <button class=" btn btn-primary">
-                            Load more
-                        </button>
+                </div>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-4 col-sm-12 col-s">
+                            hello
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+
+
+
 </body>
 
 </html>
