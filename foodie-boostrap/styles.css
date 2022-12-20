@@ -126,8 +126,8 @@ div button{
     color: #BFC5D2;
     margin-top: 6px;
 }
-#call-cards{
-    height: 451.76px;
+.call-cards{
+    /* height: 451.76px; */
 }
 #average-time{
     height: 100%;
@@ -140,18 +140,37 @@ div button{
 #feedback{
     background-color: #FFFFFF;
 }
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 999px) {
-    #call-cards{
-        height: 300px;
+ /* Extra small devices (phones, 600px and down) */
+ /* @media only screen and (max-width: 1000px) {
+    .call-cards{
+        height: 200px;
+        padding-bottom: 2px;
+        font-size: 12px;
+    } */
+
+/* } 
+ @media only screen and (max-width: 768px) {
+    .call-cards{
+        height: 100px;
     }
 
-}
+} */
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 1005px) {
+/* @media only screen and (min-width: 768px) {
     #call-cards{
-        height:400px;
-    }
+        height:50px;
+        font-weight: 40px;
+    } */
 
-}
+
+/* @media only screen and (max-width: 600px) {
+  
+        #call-cards{
+        height:200px;
+        font-weight:20px;
+        }
+    }  */
+    
+  
+
 
