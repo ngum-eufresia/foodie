@@ -1,20 +1,40 @@
 
 
 
-.nav-item a.active {
+.nav-item a.dashboard {
 background: #E0E7FF 0% 0% no-repeat padding-box;
 border-left: 2px solid #2E5BFF;
 
 }
-a.nav-link  :hover{
+a.nav-link:hover{
 background: #E0E7FF 0% 0% no-repeat;
 border-left: 2px solid #2E5BFF;
 
 
 }
 
-ul.nav{
+.nav-item a.active {
 
+  /* float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid transparent; */
+}
+ .nav-item a.active:hover {
+  border-bottom: 3px solid red;
+  background-color: #00C1D4;
+  
+}
+.manu-bar{
+    
+}
+
+.topnav a.active {
+  border-bottom: 3px solid red;
 }
 div.col-md-1{
     width: 68px;
@@ -55,7 +75,7 @@ hr{
     border : 1px solid red;
 }
 .input-group{
-    padding-left: 113px;
+    /* padding-left: 113px; */
   
     
 }
@@ -71,16 +91,6 @@ hr{
  z-index:1;
  left: 25px;
  top: 1px;
-}
-#mail{
-    margin-left: 22px;
-}
-#mail-box{
-    margin-left: 89px;
-}
-#export-but{
-   
-
 }
 #columns{
     width: 20% !important;
@@ -135,11 +145,46 @@ div button{
 
 }
 #pie-chat{
-    background-color:white;
+   
 }
 #feedback{
     background-color: #FFFFFF;
 }
+
+ 
+ @media (max-width: 991px) { 
+    .sidebar-sm{
+        display:flex;
+    }
+    .sidebar-md{
+        display:none;
+    }
+
+} 
+
+
+ /* Apply styles starting from medium devices and up to extra large devices */
+
+
+@media (min-width: 992px) { 
+    .sidebar-sm{
+   display: none
+        
+    }
+  .sidebar-md{
+    display:block
+  }
+}
+
+ @media (min-width: 768px) and (max-width: 992px) { 
+    .sidebar-sm{
+        padding-left:46px;
+    }
+
+ } 
+
+
+
  /* Extra small devices (phones, 600px and down) */
  /* @media only screen and (max-width: 1000px) {
     .call-cards{
@@ -157,7 +202,7 @@ div button{
 } */
 /* Small devices (portrait tablets and large phones, 600px and up) */
 /* @media only screen and (min-width: 768px) {
-    #call-cards{
+    #call-card
         height:50px;
         font-weight: 40px;
     } */
